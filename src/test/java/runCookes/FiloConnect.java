@@ -20,6 +20,7 @@ public class FiloConnect {
 
 	public Recordset getTestData(String almID) {
 
+		// Sample Query for Data fetch
 		String strQuery = "Select * from Sheet1 where ALMID =" + almID;
 		Recordset recordset = null;
 		try {
