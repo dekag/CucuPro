@@ -6,8 +6,8 @@ Feature: Title of your feature
   Scenario: Title of your scenario
     Given I want to write a step with precondition
     When User check for TestData1
-    Then i have 100 dollars with me
-    And i have 500 dollar with me
+    Then i have 400 dollars with me
+    And i have 200 dollar with me
 
   @Feature-01AXX
   Scenario: Title of your scenario1
