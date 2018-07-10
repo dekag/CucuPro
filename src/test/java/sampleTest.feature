@@ -13,5 +13,10 @@ Feature: Title of your feature
   Scenario: Title of your scenario1
     Given I want to write a step with precondition1
     When User check for TestData2
+    
+    @Feature-01AXX
+  Scenario: Title of your scenario1
+    Given I want to write a step with precondition1
+    When User check for TestData2
     #And I check for TestData2
     And verify all are present 

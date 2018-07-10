@@ -38,23 +38,19 @@ public class HelloStepDef {
 			System.out.println("From Step11111 "+objData.getData().getField("Data1"));	
 		}
 			    
-	}
-	
-	@Given("^I want to write a step with precondition1$")
-	public void i_want_to_write_a_step_with_precondition1() throws Throwable {
-		System.out.println("I want to write a step with precondition");
-		while (objData.getData().next()) {
-			System.out.println("From Step11111 "+objData.getData().getField("Data1"));	
-		}
-			    
-	}
-	
+	}	
+		
 	@When("^User check for TestData$")
 	public void user_check_for_TestData() throws Throwable {
 		System.out.println("User check for TestData");
 		System.out.println("From Step1 "+objData.getData().getField("Data1"));
 		
+	}	
+	
+	@Then("^i have (\\d+) dollars? with me$")
+	public void actValidateSomething(int arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println(arg1);
 	}
-
 
 }
