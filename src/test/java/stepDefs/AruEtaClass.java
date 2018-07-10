@@ -17,6 +17,7 @@ public class AruEtaClass {
 		obj.x();
 		i = 10;
 		System.out.println(i);
+		System.out.println(i*i);
 
 	}
 
